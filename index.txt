@@ -1,0 +1,51 @@
+1) What is difference between library and framework?
+Ans:- Library takes minimum efforts to put a code in your project
+You have in control while using library, you can choose where and when you need to call
+
+but in framework:- We don't have control in code, It comes with boiler plate code which we use, inshort we can't modify the code, but for initially setup we use framework.
+
+Eg:- React is library where Angular and vue is framework
+
+Both frameworks and libraries are code written by someone else that is used to help solve common problems.
+
+
+2) What is Emmet?
+Ans:- Emmet is web developer toolkit that can improve our html and css workflow.
+It helps us basically it started show when you start putting any tag in HTML.
+
+
+3)What is CDN?
+Ans:- CDN is content delivery network , It is network of server linked together with the goal of delievring content as quickly, cheaply, reliably  and securely as possible.
+it reduces the time for the user and the content which he wants to get.
+
+4)WHat is Crossorigin attributes?
+Ans:- Crossorigin attributes set the mode of the request is HTTP CORS request.
+Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+5)What is difference between async and defer?
+Ans:- Async allows your sript to run as soon as it's loaded without blocking other element on the page.
+
+Defer means your script will only excute after the page has finished loading
+both downloads in the background at a low priority but async can interrupt page rendering to excute but defer dose not.
+
+Async excutes as soon as possible and in no particular pattern
+but defer excutes in sequence just before the DOMContentLoaded event
+
+
+6)What is createElement in react?
+Ans:- create and return a new React element of the given type.
+The type argument can be either a tag name string (such as 'div' or 'span'), a React component type (a class or a function), or a React fragment type.
+syntax=("element",{props},"content");
+
+
+7)What is createRoot?
+Ans:- let you create a root to display react components inside a browser.
+Under this root element we render our element or component.
+after creating a root we need to use root.render(<App/>) to display the react component inside of it.
+
+When your HTML is empty, the user sees a blank page until the app’s JavaScript code loads and runs:
+
+<div id="root"></div>
+This can feel very slow! To solve this, you can generate the initial HTML from your components on the server or during the build. Then your visitors can read text, see images, and click links before any of the JavaScript code loads. We recommend to use a framework that does this optimization out of the box. Depending on when it runs, this is called server-side rendering (SSR) or static site generation (SSG).
+
